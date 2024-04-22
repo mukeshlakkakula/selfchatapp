@@ -1,0 +1,56 @@
+.sidebarContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  padding-top: 30px;
+  flex-direction: column;
+  min-height: 92vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  width: 250px;
+  overflow: auto;
+  margin-right: 10px;
+}
+
+.logoBurger {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-style: none;
+  font-size: 25px;
+  gap: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.sidebarContainerNone {
+  display: none;
+}
+
+.hover-element:hover {
+  min-width: 200px;
+  background-color: rgba(
+    240,
+    102,
+    102,
+    0.498
+  ); /* Change background color on hover */
+}
+
+.activeBtn {
+  background-color: rgb(3, 201, 215) !important;
+  min-width: 200px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.notActiveBtn {
+  min-width: 200px;
+  padding: 10px;
+
+  border-radius: 10px;
+  border-style: none;
+}

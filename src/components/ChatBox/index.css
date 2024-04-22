@@ -1,0 +1,40 @@
+.chatboxcontainer {
+  display: flex;
+
+  align-items: center;
+  scrollbar-width: thin;
+
+  height: 75vh;
+  overflow-y: auto;
+
+  width: 100%;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.fullChatContainer {
+  scrollbar-width: thin;
+  min-height: 93vh;
+  background-color: rgba(128, 128, 128, 0.265);
+}
+
+.picker {
+  height: 352px;
+  width: 90%;
+}
+
+.mapContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.textContainer {
+  padding: 10px;
+  background-color: #fff;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
